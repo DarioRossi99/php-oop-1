@@ -1,15 +1,23 @@
 <?php
 require_once "./Movie/Movie.php";
 
-$mySelecion = new Movie();
+// l'oggetto rappresenta in questo caso un film vero e proprio
+$film1 = new Movie();
 
 // $mySelecion->name = "nome";
 // $mySelecion->type = "Film";
 
-$mySelecion->setName("nome");
-$mySelecion->setType("Film");
+$film1->setName("Avatar");
+$film1->setType("Azione");
 
-var_dump($mySelecion);
+$film2 = new Movie();
+
+$film2->setName('Avatar 2');
+$film2->setType('Azione');
+
+
+var_dump($film1);
+var_dump($film2);
 
 ?>
 

@@ -1,5 +1,6 @@
 <?php
 
+// la classe (in questo caso) descrive come e' fatto un film
 class Movie {
     private $name;
     private $type;
